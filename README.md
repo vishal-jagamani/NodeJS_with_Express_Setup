@@ -8,7 +8,6 @@ This is a starter template for a Node.js backend project using the Express.js fr
 -   [Prerequisites](#prerequisites)
 -   [Installation](#installation)
 -   [Usage](#usage)
--   [Folder Structure](#folder-structure)
 -   [Contributing](#contributing)
 
 ## Getting Started
@@ -45,27 +44,6 @@ Follow these steps to get the project up and running on your local machine:
 ## Usage
 
     npm start
-
-## Folder Structure
-
-The project structure may look like this:
-
-├── config/                 # Configuration files
-│   ├── config.js
-│   └── ...
-├── src/                    # Source code
-│   ├── routes/             # Express.js route definitions
-│   │   ├── demoRoutes.js
-│   │   └── ...
-│   ├── services/           # Service logic
-│   │   ├── demoService.js
-│   │   └── ...
-├── .gitignore              # Git ignore rules
-├── .prettierrc             # Prettier configuration file
-├── .prettierignore         # Prettier ignore file
-├── package.json            # Project dependencies and scripts
-├── server.js               # Entry point for the Express server
-└── README.md               # Project README
 
 ## Contributing
 
