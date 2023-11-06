@@ -50,23 +50,22 @@ Follow these steps to get the project up and running on your local machine:
 
 The project structure may look like this:
 
-project/
-├── config/
-│ └── config.js
-│ └── ...
-├── src/
-│ ├── routes/
-│ │ └── demoRoutes.js
-│ │ └── ...
-│ ├── services/
-│ │ └── demoService.js
-│ │ └── ...
-├── .gitignore
-├── .prettierrc
-├── .prettierignore
-├── package.json
-├── server.js
-└── README.md
+├── config/                 # Configuration files
+│   ├── config.js
+│   └── ...
+├── src/                    # Source code
+│   ├── routes/             # Express.js route definitions
+│   │   ├── demoRoutes.js
+│   │   └── ...
+│   ├── services/           # Service logic
+│   │   ├── demoService.js
+│   │   └── ...
+├── .gitignore              # Git ignore rules
+├── .prettierrc             # Prettier configuration file
+├── .prettierignore         # Prettier ignore file
+├── package.json            # Project dependencies and scripts
+├── server.js               # Entry point for the Express server
+└── README.md               # Project README
 
 ## Contributing
 
